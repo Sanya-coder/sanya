@@ -1,0 +1,213 @@
+a{
+    color:#11999E; 
+    margin-top: 0px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  
+
+}
+a:hover{
+    color:blueviolet;
+}
+body{
+    margin:0;
+    text-align: center;
+    font-size:200%;
+    color:#40514E;
+    background-color: linen;
+  /***font-family:sans-serif;sans sherif-stylish no edged,monopause is type  in which we coding,sherif edged,cursive is language cursive,,*/
+  /***font-family:Helvetica,Arial,  serif;if in any user browser helvetica is not available then arial is applied*/
+  font-family: 'Merriweather', serif;/*this is the third way for font writing ie if we want everone sees the 
+  font so we can put the link google.fonts in index.html and add family at googlre fonts.com site and just paste it here **/
+/**we can go ccs fontscheck to check how many fonts are available for users in windows and mac**/
+}
+.bottom-container{
+    background-color:#d4f3ef;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    
+}
+.BUTTON_YUU {
+    background-color: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #23CFD5);
+    background-image: -moz-linear-gradient(top, #11CDD4, #23CFD5);
+    background-image: -ms-linear-gradient(top, #11CDD4, #23CFD5);
+    background-image: -o-linear-gradient(top, #11CDD4, #23CFD5);
+    background-image: linear-gradient(to bottom, #11CDD4, #23CFD5);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color:black;
+    font-family:Merriweather;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+   /**( box-shadow: 0px 0px 0px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;***/
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}    
+.BUTTON_YUU:hover {
+    border: dashed #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color:lightgoldenrodyellow;
+ }
+.copy-right{
+    padding-top:60px;
+    padding-bottom: 0px;
+    color:purple;
+    margin:0px;
+}
+
+.cloud-1{
+    height: 100px;
+    width: 100px;
+    position:absolute;/*if we only write absolute that means we are placing the image randomly on screen before we give its dimensions.*/
+    right:350px;
+
+}
+.cloud-2{
+    position:absolute;/**if we want to make image to be removed from html flow to absolute keyword***/
+    height:100px;
+    width:100px;
+    left:300px;
+    top:150px;
+}
+.dance{
+    width:100px;
+    height: 150px;
+    float: left;/**we are wrapping the text on the left of image and prefer poisionting methods more rather than float in other cases where we dont need to wrap**/
+    margin-right: 50px;/**u can also margin for space between text and image**/
+    border: blue solid 5px;
+}
+form{
+    font-size: 1rem;
+}
+ 
+
+hr{
+    margin-top: 70px;
+    width:5%;
+    margin:60px auto;
+    border-style: dotted none none ;
+    border-width:10px;
+    border-color:grey ;
+}
+h1{ 
+    font-family: 'Sacramento', cursive;
+    margin-top: 0px;
+    height: 20px;
+    font-size:5rem;
+    color: #66BFBF;
+    /**width:60%;----this gives the h1 a width of 60% which remains along the screen not center**/
+   /** margin:0 auto--- this make to make thetext in cente when width is given % ie 60%,so if we want to align text 
+    in left and right we give it auto command and to vertical dimensions ie top and bottom we give 0.
+    this set text to centre in horizontal row*/
+}
+h2{
+    /**paras is only for p in first div*/
+   /** position:absolute;
+    top:100px;one method is this to cjange position of tect acc to relative position of div*/
+   padding-top:3px;/***second method to change poistioning from top edge from above text box to this textbox*/
+    font-size:3rem;
+    color:blueviolet;
+     font-weight:normal; /*default weight is bold making normal it reduces weight*/
+     line-height: 2;/*no dimensions it increases the height and it increases the space between th etext at top and at bottom*/
+    /***in to change font size h1 margin:50px auto 0 **/
+    margin:0px;
+    
+  }
+h3{
+    font-family: 'Sacramento', cursive;
+    margin:0px;
+    font-size:3rem;
+    color:#11999E;
+    padding:10px;
+
+} 
+.mountain{
+    height:280px;
+    width: 500px;
+    position:absolute;
+    top:200px;
+    right:450px;
+   
+}
+
+.measurement{
+    height:500px;
+
+}
+ol{
+    list-style-position: inside;
+    font-size:1rem;
+}
+.pro{
+    text-decoration: underline;
+}
+p{
+    font-size:1rem;
+    line-height: 2;
+}
+.paint{
+    float: left;/**we are wrapping the text on the left of image and prefer poisionting methods more rather than float in other cases where we dont need to wrap**/
+    margin-right: 30px;
+    margin-bottom: 0px;
+    border: darkred solid 5px;
+
+}
+
+
+
+.skills{
+    width:50%;
+    margin:0px auto;
+    text-align: left;
+    
+}
+
+
+.ss{
+    width: 100px;
+    height: 100px; 
+     background-color:lightpink;
+     border-radius:50% ;
+     
+
+}
+.sing{
+    float: right;/**we are wrapping the text on the left of image and prefer poisionting methods more rather than float in other cases where we dont need to wrap**/
+    margin-left: 20px;
+    border: darkorange solid 5px;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+  }
+.top-container{
+    background-color:#d4f3ef;
+    position:relative;
+    padding-top:50px;/*top edge se text uska difference*/
+}
+
+
+ul{
+      list-style-position: inside;
+      font-size:1rem;
+}
